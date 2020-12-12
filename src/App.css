@@ -1,38 +1,386 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family:'Poppins', sans-serif;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header{
+  width: 100%;
+  height: 100vh;
+  background-image: url("/src/asset/image1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  background-color: #571845;
+  z-index: 1;
+  top:0;
+}
+.navbar_container{
   display: flex;
-  flex-direction: column;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  color: aliceblue;
+}
+.navbar_left-log{
+  width: 100px;
+
+
+}
+.navbar_right{
+  display: flex;
+list-style: none;  
+}
+.navbar_right li a{
+  text-decoration: none;
+  color: aliceblue;
+ font-weight: 500;
+ font-size: 18px;
+ padding: 0 15px;
+ cursor: pointer;
+
+}
+
+.bgMain{
+background-color: #900C3E;
+}
+.row{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.col-6{
+ width: 50%;
+
+}
+.col-4{
+  width: 33.33%;
+  transition: all 0.5s linear;
+}
+.col-3{
+  width:59%;
+}
+.header_content{
+  display: flex;
+  align-items: center;
+  height:100vh;
+  width: 100%;
+}
+.header_ul{
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 25px;
+
+}
+.header_ul li{
+  width: 50px;
+  height: 50px;
+  border: 3px solid red;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin:  0 10px;
+}
+.header_ul li :first-child{
+margin-left: 0;
+}
+.header_section h1{
+  font-size: 57px;
+  font-weight: 800;
+  margin-bottom: 25px;
+
+
+}
+.header_section p{
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 45px;
+  margin-bottom: 50px;
+}
+.btn{
+  outline: none;
+  border: none;
+  color: aliceblue;
+
+  text-decoration: none;
+
+}
+.btn-outline{
+  border: 10px solid #C70039;
+  border-radius: 50px;
+  padding: 13px 40px;
+}
+.btn-smart{
+  background: #C70039;
+  padding: 20px 50px;
+  border-radius: 40px;
+}
+.play{
+  font-size: 30px;
+  padding-top: 15px;
+}
+.banner_img{
+  padding: 0 30px;
+  margin-top: 100px;
+  margin-left: 100px;
+
+
+ }
+.Education{
+  background-color: #900C3E;
+  padding : 100px 0;
+  color: aliceblue;
+
+}
+.common{
+  width: 33.3333333333333%;
+  margin: 20px auto;
+  text-align: center;
+  text-shadow: 10px;
+
+}
+.heading{
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: yellow;
+  font-size: 16px;
+
+}
+.mainheading{
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.mainContent{
+  font-size: 16px;
+  color: aliceblue;
+}
+.commonBorder{
+  background: yellow;
+  height: 3px;
+  width: 100px;
+  margin: 30px auto;
+}
+.services_box{
+  padding: 40px;
+  background-color: #C70039;
+  color: aliceblue;
+  margin: 20px;
+  transition: all 0.5s linear;
+}
+.col-4 :hover{
+  background-color: #571845;
+}
+.services_box :hover{
+  background-color: #900C3E;
+
+}
+.commonIcons{
+  font-size: 40px;
+  color: rgb(236, 236, 125);
+  margin-bottom: 15px;
+  transition: all 0.5s linear;
+
+}
+.services_box:hover .commonIcons{
+  color: aliceblue;
+}
+.services_box-header{
+font-size: 20px;
+font-weight: 500;
+margin-bottom: 15px;
+}
+.services_box-p{
+  font-size: 14px;
+  color: aliceblue;
+
+}
+.about{
+  width: 100%;
+  background-color: #C70039;
+  padding: 100px 0;
+
+}
+.about_img{
+  padding: 30px;
+  width: 200px;
+  height: 100px;
+}
+
+.services_box-bg{
+  padding: 20px;
+  background-color: #900C3E;
+  color: aliceblue;
+  margin-left: 400px;
+  white-space: pre-wrap;
+  margin-top: 20px;
+   transition: all 0.5s linear;
+}
+.services_box-bg :hover{
+ background-color: #FF5733;
+}
+h-650{
+  height: 650px;
+}
+.alignCenter{
+  align-items: center;
+}
+.info_content{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+
+}
+.info_content strong{
+  color: #FF5733;
+}
+.info_content p{
+  margin-top: 2px;
+}
+.Knowledge{
+  width: 100%;
+  padding: 60px 0;
+  background-color: #FF5733;
+}
+.knowledges
+{
+  background: #f58a72;
+  padding: 25px;
+  border-radius: 8px;
+  margin: 35px 20px;
+  text-align: center;
+  transition: all 0.5s linear;
+
+  }
+  .Front{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: aliceblue;
+  }
+  .knowledges ul{
+    list-style-type: none;
+  }
+  .knowledges ul li{
+    margin: 35px;
+    font-size: 14px;
+    border-bottom: 1px solid #290801;
+    padding: 15px 0;
+  color: aliceblue;
+  }
+  .contact{
+    padding: 100px 0;
+    background-color: #FFC300
+  }
+  .justifyContent{
+    justify-content: center;
+  }
+  .ContactSection-logo{
+    margin: 0 auto;
+    width: 130px;
+    text-align: center;
+    margin-bottom: 20px;
+
+  }
+  .ContactSection p{
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+.ContactCircle{
+  list-style: none;
+  width: 100%;
+ display: flex;
+justify-content: center;
+  
+}
+.ContactCircle li{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
+margin: 0 12px;
+background: #ec3d16;
+}
+.toggle{
+  position: fixed;
+  top: 5px;
+  right: 25px;
+  background: rgb(48, 1, 1);
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  cursor: pointer;
+  transition: all 1s linear;
 }
 
-.App-link {
-  color: #61dafb;
-}
+@media(max-width: 765px){
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .container{
+    width: 100%;
+    padding: 0px 25px;
+
   }
-  to {
-    transform: rotate(360deg);
+  
+    .col-6{
+width: 100%;
+
+    }
+    .col-4{
+      width: 100%;
+    }
+    .navbar_right{
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      background:red;
+     
+      
+
+      
+    }
+    .navbar_right li a{
+      display: block;
+      padding: 25px 0;
+      border-bottom: 2px solid rgb(12, 1, 1);
+
+    }
+    .toggle{
+      display: flex;
+      transition: all 0.5s linear;
+    }
+   
+  .about_img{
+    display: none;
+  }
+  .banner_img{
+    display: none;
+  }
+  .services_box-bg{
+    padding: 20px;
+    background-color: #900C3E;
+    color: aliceblue;
+    margin-left: 0px;
+    white-space: pre-wrap;
+    margin-top: 20px;
+     transition: all 0.5s linear;
   }
 }
