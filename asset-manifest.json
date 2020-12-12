@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kashifcv/static/css/main.17a87d58.chunk.css",
+    "main.js": "/kashifcv/static/js/main.dc04309f.chunk.js",
+    "main.js.map": "/kashifcv/static/js/main.dc04309f.chunk.js.map",
+    "runtime-main.js": "/kashifcv/static/js/runtime-main.24f92426.js",
+    "runtime-main.js.map": "/kashifcv/static/js/runtime-main.24f92426.js.map",
+    "static/js/2.fbdd12dc.chunk.js": "/kashifcv/static/js/2.fbdd12dc.chunk.js",
+    "static/js/2.fbdd12dc.chunk.js.map": "/kashifcv/static/js/2.fbdd12dc.chunk.js.map",
+    "index.html": "/kashifcv/index.html",
+    "static/css/main.17a87d58.chunk.css.map": "/kashifcv/static/css/main.17a87d58.chunk.css.map",
+    "static/js/2.fbdd12dc.chunk.js.LICENSE.txt": "/kashifcv/static/js/2.fbdd12dc.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/kashifcv/static/media/image1.55c1682c.jpg",
+    "static/media/kashif.bb4c166c.png": "/kashifcv/static/media/kashif.bb4c166c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.24f92426.js",
+    "static/js/2.fbdd12dc.chunk.js",
+    "static/css/main.17a87d58.chunk.css",
+    "static/js/main.dc04309f.chunk.js"
+  ]
+}
